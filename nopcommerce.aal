@@ -1,0 +1,89 @@
+# preview-show-vars: site
+
+aal "techtalk" {
+
+    language "python" {import basicseleniumadapter as techtalksite
+import time
+}
+
+    variables {site
+    }
+
+    initial_state {
+        site = "mainpage"
+        logged = False
+    }
+
+    adapter_init {
+        techtalksite.init()
+    }
+
+    adapter_exit {
+        techtalksite.cleanUp()
+    }
+
+        input "click_main" {
+            guard() { return site != "mainpage" }
+            adapter() {
+                techtalksite.clickMainPage()
+            }
+            body() { site = "mainpage" }
+        }
+
+        input "click_about" {
+            guard() { return site != "aboutpage" }
+            body() { site = "aboutpage" }
+            adapter {
+                techtalksite.clickAboutSubPage()
+            }
+        }
+
+        input "click_talks" {
+            guard() { return site != "talkspage" }
+            adapter() {
+                techtalksite.clickTalksSubPage()
+            }
+            body() { site = "talkspage" }
+    }
+
+        input "click_book_a_seat" {
+            guard() { return site != "bookingpage" }
+            adapter() {
+                techtalksite.clickBookASeatSubPage()
+            }
+            body() { site = "bookingpage" }
+        }
+
+        input "click_moreInfo" {
+            guard() { return ((site != "moreInfopage") and (site == "mainpage"))}
+            adapter() {
+                #techtalksite.clickMainPage()
+                techtalksite.clickMoreInfoSubPage()
+            }
+            body() { site = "moreInfopage" }
+        }
+
+        input "searchModule" {
+            guard() { return site != "searchModule" }
+            adapter() {
+                techtalksite.searchModuleCheck()
+            }
+            body() { site = "searchModule" }
+        }
+
+        input "registerModule" {
+            guard() { return ((site != "registerModule") and (site == "bookingpage")) }
+            adapter() {
+                techtalksite.bookingProcedureCheck()
+            }
+            body() { site = "registerModule" }
+        }
+
+        input "contactModule" {
+            guard() { return ((site != "contactModule") and (site == "aboutpage")) }
+            adapter() {
+                techtalksite.contactUsModule()
+            }
+            body() { site = "contactModule" }
+        }
+}

@@ -1,0 +1,270 @@
+<fmbt_log>
+<version>
+    0.34-1
+</version>
+<conf_load>
+    <conf_file name="techtalk.conf"/>
+     <remote_pyaal_version>0.34-1</remote_pyaal_version>
+</conf_load>
+<conf_execute>
+    <action_name name="i%3Aclick_main"/>
+    <action_name name="i%3Aclick_about"/>
+    <action_name name="i%3Aclick_talks"/>
+    <action_name name="i%3Aclick_book_a_seat"/>
+    <action_name name="i%3Aclick_moreInfo"/>
+    <action_name name="i%3AsearchModule"/>
+    <action_name name="i%3AregisterModule"/>
+    <test_engine>
+        <tags enabled=""/>
+        <status steps="0" coverage="0.000000" scov="0.000000e+00"/>
+        <current_time time="1473412368.823255"/>
+        <suggested_action type="input" name="i%3Aclick_about" time="1473412368.832119"/>
+        <action type="input" name="i%3Aclick_about" time="1473412374.734098"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="1" coverage="0.017857" scov="1.785714e-02"/>
+        <current_time time="1473412374.734206"/>
+        <suggested_action type="input" name="i%3Aclick_main" time="1473412374.739387"/>
+        <action type="input" name="i%3Aclick_main" time="1473412378.566509"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="2" coverage="0.053571" scov="5.357143e-02"/>
+        <current_time time="1473412378.566655"/>
+        <suggested_action type="input" name="i%3Aclick_talks" time="1473412378.571967"/>
+        <action type="input" name="i%3Aclick_talks" time="1473412383.481409"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="3" coverage="0.089286" scov="8.928572e-02"/>
+        <current_time time="1473412383.481498"/>
+        <suggested_action type="input" name="i%3Aclick_book_a_seat" time="1473412383.488195"/>
+        <action type="input" name="i%3Aclick_book_a_seat" time="1473412388.042273"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="4" coverage="0.125000" scov="1.250000e-01"/>
+        <current_time time="1473412388.047615"/>
+        <suggested_action type="input" name="i%3AregisterModule" time="1473412388.048778"/>
+        <action type="input" name="i%3AregisterModule" time="1473412398.118587"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="5" coverage="0.160714" scov="1.607143e-01"/>
+        <current_time time="1473412398.118738"/>
+        <suggested_action type="input" name="i%3AsearchModule" time="1473412398.122912"/>
+        <action type="input" name="i%3AsearchModule" time="1473412419.181629"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="6" coverage="0.196429" scov="1.964286e-01"/>
+        <current_time time="1473412419.181740"/>
+        <suggested_action type="input" name="i%3Aclick_main" time="1473412419.182837"/>
+        <action type="input" name="i%3Aclick_main" time="1473412422.472529"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="7" coverage="0.214286" scov="2.142857e-01"/>
+        <current_time time="1473412422.473717"/>
+        <suggested_action type="input" name="i%3Aclick_moreInfo" time="1473412422.474841"/>
+        <action type="input" name="i%3Aclick_moreInfo" time="1473412429.543588"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="8" coverage="0.250000" scov="2.500000e-01"/>
+        <current_time time="1473412429.543721"/>
+        <suggested_action type="input" name="i%3Aclick_main" time="1473412429.544847"/>
+        <action type="input" name="i%3Aclick_main" time="1473412433.629703"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="9" coverage="0.267857" scov="2.678571e-01"/>
+        <current_time time="1473412433.629808"/>
+        <suggested_action type="input" name="i%3Aclick_about" time="1473412433.634920"/>
+        <action type="input" name="i%3Aclick_about" time="1473412438.428030"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="10" coverage="0.285714" scov="2.857143e-01"/>
+        <current_time time="1473412438.428133"/>
+        <suggested_action type="input" name="i%3Aclick_talks" time="1473412438.429241"/>
+        <action type="input" name="i%3Aclick_talks" time="1473412443.211649"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="11" coverage="0.303571" scov="3.035714e-01"/>
+        <current_time time="1473412443.211742"/>
+        <suggested_action type="input" name="i%3Aclick_main" time="1473412443.213062"/>
+        <action type="input" name="i%3Aclick_main" time="1473412446.905603"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="12" coverage="0.321429" scov="3.214286e-01"/>
+        <current_time time="1473412446.905727"/>
+        <suggested_action type="input" name="i%3Aclick_book_a_seat" time="1473412446.906770"/>
+        <action type="input" name="i%3Aclick_book_a_seat" time="1473412451.630751"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="13" coverage="0.339286" scov="3.392857e-01"/>
+        <current_time time="1473412451.630927"/>
+        <suggested_action type="input" name="i%3Aclick_main" time="1473412451.636188"/>
+        <action type="input" name="i%3Aclick_main" time="1473412455.077784"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="14" coverage="0.357143" scov="3.571429e-01"/>
+        <current_time time="1473412455.077940"/>
+        <suggested_action type="input" name="i%3AsearchModule" time="1473412455.079027"/>
+        <action type="input" name="i%3AsearchModule" time="1473412476.913241"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="15" coverage="0.375000" scov="3.750000e-01"/>
+        <current_time time="1473412476.913379"/>
+        <suggested_action type="input" name="i%3Aclick_about" time="1473412476.914395"/>
+        <action type="input" name="i%3Aclick_about" time="1473412480.644911"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="16" coverage="0.392857" scov="3.928571e-01"/>
+        <current_time time="1473412480.645001"/>
+        <suggested_action type="input" name="i%3Aclick_book_a_seat" time="1473412480.646013"/>
+        <action type="input" name="i%3Aclick_book_a_seat" time="1473412484.972021"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="17" coverage="0.410714" scov="4.107143e-01"/>
+        <current_time time="1473412484.972132"/>
+        <suggested_action type="input" name="i%3Aclick_about" time="1473412484.973471"/>
+        <action type="input" name="i%3Aclick_about" time="1473412488.784906"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="18" coverage="0.428571" scov="4.285714e-01"/>
+        <current_time time="1473412488.785005"/>
+        <suggested_action type="input" name="i%3AsearchModule" time="1473412488.786073"/>
+        <action type="input" name="i%3AsearchModule" time="1473412510.305465"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="19" coverage="0.446429" scov="4.464286e-01"/>
+        <current_time time="1473412510.305636"/>
+        <suggested_action type="input" name="i%3Aclick_talks" time="1473412510.310495"/>
+        <action type="input" name="i%3Aclick_talks" time="1473412514.373647"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="20" coverage="0.464286" scov="4.642857e-01"/>
+        <current_time time="1473412514.373793"/>
+        <suggested_action type="input" name="i%3AsearchModule" time="1473412514.374856"/>
+        <action type="input" name="i%3AsearchModule" time="1473412535.171008"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="21" coverage="0.482143" scov="4.821429e-01"/>
+        <current_time time="1473412535.171182"/>
+        <suggested_action type="input" name="i%3Aclick_book_a_seat" time="1473412535.172238"/>
+        <action type="input" name="i%3Aclick_book_a_seat" time="1473412539.520412"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="22" coverage="0.500000" scov="5.000000e-01"/>
+        <current_time time="1473412539.520538"/>
+        <suggested_action type="input" name="i%3Aclick_talks" time="1473412539.523920"/>
+        <action type="input" name="i%3Aclick_talks" time="1473412543.401678"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="23" coverage="0.517857" scov="5.178571e-01"/>
+        <current_time time="1473412543.402068"/>
+        <suggested_action type="input" name="i%3Aclick_about" time="1473412543.403055"/>
+        <action type="input" name="i%3Aclick_about" time="1473412547.133084"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="24" coverage="0.535714" scov="5.357143e-01"/>
+        <current_time time="1473412547.133229"/>
+        <suggested_action type="input" name="i%3Aclick_main" time="1473412547.134384"/>
+        <action type="input" name="i%3Aclick_main" time="1473412550.357294"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="25" coverage="0.535714" scov="5.357143e-01"/>
+        <current_time time="1473412550.357385"/>
+        <suggested_action type="input" name="i%3Aclick_moreInfo" time="1473412550.358418"/>
+        <action type="input" name="i%3Aclick_moreInfo" time="1473412557.443675"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="26" coverage="0.535714" scov="5.357143e-01"/>
+        <current_time time="1473412557.443775"/>
+        <suggested_action type="input" name="i%3Aclick_book_a_seat" time="1473412557.453281"/>
+        <action type="input" name="i%3Aclick_book_a_seat" time="1473412561.492231"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="27" coverage="0.553571" scov="5.535714e-01"/>
+        <current_time time="1473412561.492499"/>
+        <suggested_action type="input" name="i%3AregisterModule" time="1473412561.493522"/>
+        <action type="input" name="i%3AregisterModule" time="1473412572.018520"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="28" coverage="0.553571" scov="5.535714e-01"/>
+        <current_time time="1473412572.018661"/>
+        <suggested_action type="input" name="i%3Aclick_book_a_seat" time="1473412572.022563"/>
+        <action type="input" name="i%3Aclick_book_a_seat" time="1473412576.207907"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="29" coverage="0.571429" scov="5.714286e-01"/>
+        <current_time time="1473412576.208010"/>
+        <suggested_action type="input" name="i%3AsearchModule" time="1473412576.211464"/>
+        <action type="input" name="i%3AsearchModule" time="1473412597.089078"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="30" coverage="0.589286" scov="5.892857e-01"/>
+        <current_time time="1473412597.089175"/>
+        <suggested_action type="input" name="i%3Aclick_main" time="1473412597.090159"/>
+        <action type="input" name="i%3Aclick_main" time="1473412600.310101"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="31" coverage="0.589286" scov="5.892857e-01"/>
+        <current_time time="1473412600.310252"/>
+        <suggested_action type="input" name="i%3Aclick_moreInfo" time="1473412600.317117"/>
+        <action type="input" name="i%3Aclick_moreInfo" time="1473412606.837716"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="32" coverage="0.589286" scov="5.892857e-01"/>
+        <current_time time="1473412606.839510"/>
+        <suggested_action type="input" name="i%3Aclick_about" time="1473412606.840562"/>
+        <action type="input" name="i%3Aclick_about" time="1473412610.626565"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="33" coverage="0.607143" scov="6.071429e-01"/>
+        <current_time time="1473412610.626783"/>
+        <suggested_action type="input" name="i%3Aclick_main" time="1473412610.630069"/>
+        <action type="input" name="i%3Aclick_main" time="1473412614.041367"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="34" coverage="0.607143" scov="6.071429e-01"/>
+        <current_time time="1473412614.041456"/>
+        <suggested_action type="input" name="i%3Aclick_moreInfo" time="1473412614.042444"/>
+        <action type="input" name="i%3Aclick_moreInfo" time="1473412620.106608"/>
+        <adapter_executed>
+        </adapter_executed>
+        <tags enabled=""/>
+        <status steps="35" coverage="0.607143" scov="6.071429e-01"/>
+        <stop verdict="pass" reason="step%20limit%20reached"/>
+        <current_time time="1473412620.111832"/>
+        <elapsed_time time="251.288669"/>
+    </test_engine>
+</conf_execute>
+</fmbt_log>
